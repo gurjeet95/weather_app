@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+:root {
+  --bgcolor: #9cadba;
+  --drkGr: #3e5160;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
+h1 {
+  color: var(--drkGr);
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: 20px;
+  justify-content: center;
+  background-color: var(--bgcolor);
+}
+
+.displayWeather {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: white;
+  width: 80vw;
+  min-height: 60vh;
+}
+
+input {
+  padding: 6px;
+  border-radius: 5px;
+  color: var(--drkGr);
+  border: none;
+  outline: none;
+}
+
+button {
+  
+  padding: 5px;
+  border-radius: 5px;
+  background: var(--drkGr);
+  color: white;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+h2{
+  text-align: center;
+}
+.inner1{
+  width:19%;
+  float:left;
+  background-color: red;
+  margin-left: 1%;
+  background-color: #9CADBA;
+  padding:0.8rem 0;
+}
+.inner1 h3,h4{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+img{
+  max-width: 100%;
+  height:auto;
+}
+.img{
+  text-align: center;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ul li{
+  text-align: center;
+}
+.cf:before,
+.cf:after {
+    content: " "; 
+    display: table; 
+}
+
+.cf:after {
+    clear: both;
+}
